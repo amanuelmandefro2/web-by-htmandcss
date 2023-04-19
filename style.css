@@ -8,6 +8,8 @@ body {
     padding-right: auto;
     margin: 0;
     width: 720px;
+    border-radius: 15px;
+    background-color: grey;
     /* text-align: center; */
 }
 .hero{
@@ -15,6 +17,7 @@ body {
     height: 343px;
     background-size: cover; 
     text-align: center;
+    color: whitesmoke;
 }
 .hero h1{
     padding-top: 100px;
@@ -48,7 +51,22 @@ body {
 .guide{
     text-align: center;
     margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    gap: 10px;
+    background-color: aqua;
+    border-radius: 8px;
 }
 .guide img{
+    margin: 15px;
     width: 150px;
+    height: 150px;
+    border-radius: 10px;
+
+}
+.guide-desc{
+    margin: 15px;
 }
